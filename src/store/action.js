@@ -1,0 +1,30 @@
+export default{
+	getParams({commit},params){
+		commit('add',params);
+	},
+	cartCountChange({commit},params){
+		commit('changeCount',params);
+	},
+	isChecked({commit},params){
+		commit('isHaveChecked',params);
+	},
+	changeAllCheckState({commit},parmas){
+		commit("changeAllChecked",parmas);
+	},
+	addWaitPay({commit}){
+		commit("addWaitPay");
+	},
+	affirmPay({commit}){
+		commit("affirmPay");
+	},
+	immediatelyPay({commit},params){
+		commit("immediatelyPay",params);
+	},
+	changeLogin({commit}){
+		commit("changeLogin");
+	},
+	quitlogin({commit}){
+		commit("quitlogin");
+	},
+
+}

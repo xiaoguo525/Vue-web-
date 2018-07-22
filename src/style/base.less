@@ -1,0 +1,29 @@
+@mallColor:#f23030;
+@secondeColor:#909399;
+@titleSize:18px;
+@navHeight:44px;
+.titleStyle(@bgcolor,@fontSize,@align,@color){
+	background-color:@bgcolor;
+	font-size:@fontSize;
+	text-align:@align;
+	color:@color;
+}
+.RowFlex(){
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap
+}
+.ColumnFlex(){
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.Fixed(){
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
